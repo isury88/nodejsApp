@@ -1,0 +1,19 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "description": "Node js app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isury88/nodejsApp.git"
+  },
+  "author": "Riccardo Venturini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isury88/nodejsApp/issues"
+  },
+  "homepage": "https://github.com/isury88/nodejsApp#readme"
+}
