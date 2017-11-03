@@ -1,0 +1,20 @@
+{
+  "name": "library",
+  "description": "Node js app",
+  "main": "app.js",
+  "authors": [
+    "Riccardo Venturini"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/isury88/nodejsApp",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
