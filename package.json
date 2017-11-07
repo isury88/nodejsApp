@@ -20,7 +20,8 @@
   "dependencies": {
     "bootstrap": "^3.3.7",
     "express": "^4.16.2",
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "jade": "^1.11.0"
   },
   "devDependencies": {
     "gulp-inject": "^4.3.0",
