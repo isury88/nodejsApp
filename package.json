@@ -19,7 +19,9 @@
   "homepage": "https://github.com/isury88/nodejsApp#readme",
   "dependencies": {
     "bootstrap": "^3.3.7",
+    "ejs": "^2.5.7",
     "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
     "gulp": "^3.9.1",
     "jade": "^1.11.0"
   },
