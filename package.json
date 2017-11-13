@@ -23,7 +23,8 @@
     "express": "^4.16.2",
     "express-handlebars": "^3.0.0",
     "gulp": "^3.9.1",
-    "jade": "^1.11.0"
+    "jade": "^1.11.0",
+    "mssql": "^4.1.0"
   },
   "devDependencies": {
     "gulp-inject": "^4.3.0",

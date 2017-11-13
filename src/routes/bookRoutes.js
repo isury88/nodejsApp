@@ -2,7 +2,8 @@ var express = require('express');
 
 var bookRouter = express.Router();
 
-var books = [
+var router = function(nav) {
+    var books = [
   {
         title: 'Eloquent JavaScript, Second Edition',
         author: 'Marijn Haverbeke',
@@ -30,25 +31,25 @@ var books = [
     }
 ];
 
-bookRouter.route('/')
+    bookRouter.route('/')
     .get(function(req, res) {
-    res.render('bookListView', {
-        title: 'Books',
-        nav: [{Link:'/Books', Text:'Books'},
-            {Link:'/Authors', Text:'Authors'}],
-        books: books
-    });
-});
+            res.render('bookListView', {
+                title: 'Books',
+                nav: nav,
+                books: books
+            });
+        });
 
-bookRouter.route('/:id')
+    bookRouter.route('/:id')
         .get(function(req, res) {
             var id = req.params.id;
             res.render('bookView', {
                 title: 'Books',
-                nav: [{Link:'/Books', Text:'Books'},
-                {Link:'/Authors', Text:'Authors'}],
+                nav: nav,
                 book: books[id]
             });
         });
 
-module.exports = bookRouter;
+    return bookRouter;
+};
+module.exports = router;
